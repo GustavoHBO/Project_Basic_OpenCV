@@ -13,4 +13,9 @@ Minimum project to OpenCV C++ using cmake.
 3 - Run the compiler.
     make
 4 - Run the default application.
-    ./
+    ./example <your image>
+
+    or
+
+    ./example
+    to open a default image.
