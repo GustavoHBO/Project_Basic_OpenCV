@@ -9,19 +9,25 @@ Minimum project to OpenCV C++ using cmake.
 1. Go to folder build
 
 
-    ~/../Project_Basic_OpenCV$ cd build
+    ~/Project_Basic_OpenCV$ cd build
 2. Run cmake, to build the flags to compiler.
-    
-    
-    ~/../Project_Basic_OpenCV$ cmake ..
+
+
+    ~/Project_Basic_OpenCV$ cmake ..
+
+
 3 - Run the compiler.
 
-    ~/../Project_Basic_OpenCV/build$ make
+
+    ~/Project_Basic_OpenCV/build$ make
+
+
 4 - Run the default application.
 
-    ./example <your image>
 
-    or
+	~/Project_Basic_OpenCV/build$ ./example <your image>
+or
 
-    ./example
-    to open a default image.
+	~/Project_Basic_OpenCV/build$ ./example
+
+to open a default image.
